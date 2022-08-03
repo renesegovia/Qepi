@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 18, 2018, 5:15:02 PM
+    Author     : lsegovia
+*/
+
+.list-cell {
+    -fx-padding: 0 0 5 0;
+    -fx-background-color: #F4F4F4;
+}
+
+#bl0 {
+    -fx-padding: 3 3 3 3;
+    -fx-background-color: white;
+    -fx-background-radius: 10 10 10 10;
+}
+
+
+#bl8 {
+    -fx-padding: 0 0 0 0;
+    -fx-background-color: #F4F4F4;
+    -fx-text-fill: #615a5a;
+}
+
+#bl6d {
+    -fx-padding: 5 5 5 5;
+    -fx-background-color: #c3e59d;
+    -fx-background-radius: 10 0 10 10;
+    
+    -fx-wrap-text: true;
+    -fx-alignment: top-right;
+    /*
+    -fx-effect: dropshadow( gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0 );
+    
+    -fx-effect: dropshadow(three-pass-box, purple, 10, 0, 0, 0);
+    */
+    -fx-effect: dropshadow(three-pass-box, #a3cd8e, 0.3, 0.3, 0, 0);
+    
+    /*
+    line-height: 100%;
+    display: block;
+    position: relative;
+    border: black solid 0;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    margin-bottom: 2em;
+    clear: both;
+    max-width: 50%;
+    */
+    
+}
+
+#bl6i {
+    -fx-padding: 5 5 5 5;
+    -fx-background-color: #91e1ff;
+    -fx-background-radius: 0 10 10 10;
+    -fx-wrap-text: true;
+    -fx-alignment: top-left;
+    /*
+    -fx-effect: dropshadow( gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0 );
+    
+    -fx-effect: dropshadow(three-pass-box, purple, 10, 0, 0, 0);
+    */
+    -fx-effect: dropshadow(three-pass-box, #56c4d5, 0.3, 0.3, 0, 0);
+    
+    /*
+    line-height: 100%;
+    display: block;
+    position: relative;
+    border: black solid 0;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    margin-bottom: 2em;
+    clear: both;
+    max-width: 50%;
+    */
+}

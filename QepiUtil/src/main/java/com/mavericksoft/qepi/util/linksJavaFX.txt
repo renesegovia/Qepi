@@ -1,0 +1,133 @@
+https://mkyong.com/java/java-read-a-file-from-resources-folder/
+
+
+Chat javafx  --> quiero ver como hace el scrollbar del textflow
+https://github.com/DomHeal/JavaFX-Chat
+
+Synchronization arraylist
+https://www.geeksforgeeks.org/synchronization-arraylist-java/
+
+java.util.ConcurrentModificationException
+http://www.javamexico.org/foros/groovy/javautilconcurrentmodificationexception_como_se_hace_%C2%BF
+
+
+List<Empleado> toRemove = new ArrayList<Empleado>();
+for ( Empleado e : listaEmpleados ) {
+    if ( condicion ) {
+        toRemove.add( e );
+    }
+}
+listaEmplados.removeAll( toRemove );
+Inicie sesión o regístrese para enviar comentarios
+ Imagen de ezamudio
+El otro for
+Submitted by ezamudio on Mié, 02/08/2012 - 17:27.
+El foreach de Java está hecho para iterar una lista sin modificarla. Es pura azúcar sintáctica; cuando lo compilas se convierte en algo así:
+
+for (Iterator<Empleado> tmpvarblabla=listaEmpleados.iterator();tmpvarblabla.hasNext();) {
+  final Empleado emp = tmpvarblabla.next();
+  //Y luego aquí va tu código
+}
+Cuando quitas el elemento de la lista directamente, el iterator se queja de que la lista sobre la que itera ya fue modificada.
+
+Si tú haces tooooodo ese código del for, en vez del foreach, entonces tienes acceso al iterador, cosa que es muy útil porque tiene un método para quitar el elemento actual de la colección, sin que tengas ese problema:
+
+for (Iterator<Empleado> iter=listaEmpleados.iterator();iter.hasNext();) {
+  final Empleado emp = iter.next();
+  if (algunaCondicion) { iter.remove(); }
+}
+
+
+https://es.stackoverflow.com/questions/38800/error-en-java-java-util-concurrentmodificationexception
+
+
+javafx textflow example
+https://www.programcreek.com/java-api-examples/?class=javafx.scene.text.TextFlow&method=setTextAlignment
+
+javafx textarea Text
+How to append multicolor text in JavaFx textArea
+https://stackoverflow.com/questions/29149504/how-to-append-multicolor-text-in-javafx-textarea
+
+JavaFX - Layout Panes Textflow
+https://www.tutorialspoint.com/javafx/layout_panes_textflow.htm
+
+javafx textarea wrap text
+
+JavaFX TextArea how to set text with automatic new line breaks
+https://stackoverflow.com/questions/35797493/javafx-textarea-how-to-set-text-with-automatic-new-line-breaks
+
+Como generar numeros aleatorios en un rango de valores
+https://es.stackoverflow.com/questions/5390/como-generar-n%C3%BAmeros-aleatorios-dentro-de-un-rango-de-valores
+
+JavaFX Concurrency Example
+https://examples.javacodegeeks.com/desktop-java/javafx/javafx-concurrency-example/
+
+Software caused connection abort: recv failed
+
+Cause of “Software caused connection abort: recv failed”
+https://stackoverflow.com/questions/8780673/cause-of-software-caused-connection-abort-recv-failed
+
+javafx toggle button example
+https://docs.oracle.com/javafx/2/ui_controls/toggle-button.htm
+
+Ejemplo getResourceAsStream()
+http://www.thinkplexx.com/learn/howto/java/system/java-resource-loading-explained-absolute-and-relative-names-difference-between-classloader-and-class-resource-loading
+
+http://www.thinkplexx.com/learn/howto/java/system/java-resource-loading-explained-absolute-and-relative-names-difference-between-classloader-and-class-resource-loading
+
+java oracle switch
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+
+javafx toggle button ejemplo
+http://tutorials.jenkov.com/javafx/togglebutton.html
+
+toggle button arm example
+https://docs.oracle.com/javase/8/javafx/user-interface-tutorial/toggle-button.htm
+
+javafx combobox example
+http://tutorials.jenkov.com/javafx/combobox.html
+
+javafx observablelist example
+https://docs.oracle.com/javafx/2/collections/jfxpub-collections.htm
+
+javafx combobox editable
+https://stackoverflow.com/questions/37923502/how-to-get-entered-value-in-editable-combobox-in-javafx
+
+javafx fxmldocument icon
+https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm
+
+javafx icon
+http://java-buddy.blogspot.com/2013/11/javafx-example-how-to-set-icon-of.html
+
+ventanas javafx
+http://acodigo.blogspot.com/2014/09/introduccion-javafx-8.html
+http://acodigo.blogspot.com/2014/10/javafx-8-administrar-ventanas.html
+
+javafx stage disable iconified
+https://stackoverflow.com/questions/8341305/how-to-remove-javafx-stage-buttons-minimize-maximize-close
+
+javafx modal windows
+https://stackoverflow.com/questions/10486731/how-to-create-a-modal-window-in-javafx-2-1
+
+javafx textflow example
+https://www.tutorialspoint.com/javafx/layout_panes_textflow.htm
+https://docs.oracle.com/javase/8/javafx/user-interface-tutorial/text-settings.htm
+https://docs.oracle.com/javase/8/javafx/user-interface-tutorial/text-effects.htm
+https://stackoverflow.com/questions/37436595/how-to-use-textflow-from-fxml
+
+javafx textarea salto de linea
+https://www.lawebdelprogramador.com/foros/Java/937289-Salto-de-linea-del-TextArea.html
+TextAreaEnvia.setLineWrap(true); 
+TextAreaEnvia.setWrapStyleWord(true);
+
+https://www.lawebdelprogramador.com/foros/Java/815407-jtextarea-y-salto-de-linea.html
+// Darle un tamaño en filas/columnas en el constructor. 
+JTextArea areaTexto = new JTextArea(25,80); 
+// Para que se partan automáticamente las líneas al llegar al final 
+areaTexto.setLineWrap(true); 
+// Para que el partido se haga respetando las palabras. Sólo se parte la 
+// línea en los espacios entre palabras. 
+areaTexto.setWrapStyleWord(true); 
+
+Ejemplo de chat java
+https://programandoointentandolo.com/2013/04/ejemplo-chat-en-java-usando-sockets-e-hilos.html

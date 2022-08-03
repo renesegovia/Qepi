@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root id="AnchorPane" prefHeight="200.0" prefWidth="175.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mavericksoft.qepi.client.AddUserChatFxmlNodeController">
+   <children>
+      <ListView fx:id="listViewAddUserChat" layoutX="12.0" layoutY="19.0" onMouseClicked="#handleUsuariosListViewAddUserChatAction" prefHeight="165.0" prefWidth="150.0" />
+   </children>
+</fx:root>

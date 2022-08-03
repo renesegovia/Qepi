@@ -1,0 +1,116 @@
+<recursos>
+    <configuracion>
+        <debug>true</debug>
+    </configuracion>
+    <universo id="1" nombre="Avengers">
+        <personaje id="1">Thor</personaje>
+        <personaje id="2">Hulk</personaje>
+        <personaje id="3">Tonny</personaje>
+        <personaje id="4">Cap</personaje>
+        <personaje id="5">Natasha</personaje>
+        <personaje id="6">Barton</personaje>
+        <personaje id="7">Pepper</personaje>
+        <personaje id="8">Happy</personaje>
+        <personaje id="9">Coulson</personaje>
+        <personaje id="10">Star-Lord</personaje>
+        <personaje id="11">Rocket</personaje>
+        <personaje id="12">Groot</personaje>
+        <personaje id="13">Gamora</personaje>
+        <personaje id="14">Peter</personaje>
+        <personaje id="15">Strange</personaje>
+        <personaje id="16">T'Challa</personaje>
+        <personaje id="17">Bucky</personaje>
+        <personaje id="18">Scott</personaje>
+        <personaje id="19">War Machine</personaje>
+        <personaje id="20">Loki</personaje>
+        <personaje id="21">Tanos</personaje>
+        <escenario id ="1">Asgard</escenario>
+        <escenario id ="2">Nidavellir</escenario>
+        <escenario id ="3">NY</escenario>
+        <escenario id ="4">Wakanda</escenario>
+        <escenario id ="5">Helicarrier</escenario>
+        <escenario id ="6">Titan</escenario>
+        <escenario id ="7">Knowhere</escenario>
+        <escenario id ="8">Vomir</escenario>
+        <escenario id ="9">Sokovia</escenario>
+    </universo>        
+    <universo id="2" nombre="El Señor de los anillos">
+        <personaje id="1">Frodo</personaje>
+        <personaje id="2">Sam</personaje>
+        <personaje id="3">Merry</personaje>
+        <personaje id="4">Pippin</personaje>
+        <personaje id="5">Aragorn</personaje>
+        <personaje id="6">Boromir</personaje>
+        <personaje id="7">Legolas</personaje>
+        <personaje id="8">Gimli</personaje>
+        <personaje id="9">Gandalf</personaje>
+        <personaje id="10">Bilbo</personaje>
+        <personaje id="11">Arwen</personaje>
+        <personaje id="12">Eowyn</personaje>
+        <personaje id="13">Gollum</personaje>
+        <personaje id="14">Saruman</personaje>
+        <personaje id="15">Sauron</personaje>
+        <escenario id ="1">La Comarca</escenario>
+        <escenario id ="2">Rohan</escenario>
+        <escenario id ="3">Rivendel</escenario>
+        <escenario id ="4">Gondor</escenario>
+        <escenario id ="5">Lothlórien</escenario>
+        <escenario id ="6">Minas Tirith</escenario>
+        <escenario id ="7">Abismo de Helm</escenario>
+        <escenario id ="8">Moria</escenario>
+        <escenario id ="9">Mordor</escenario>
+    </universo>
+    <universo id="3" nombre="La liga de la justicia">
+        <personaje id="1">Lois</personaje>
+        <personaje id="2">Diana</personaje>
+        <personaje id="3">Bruce</personaje>
+        <personaje id="4">Clark</personaje>
+        <personaje id="5">Arthur</personaje>
+        <personaje id="6">Barry</personaje>
+        <personaje id="7">Luthor</personaje>
+        <personaje id="8">Steppenwolf</personaje>
+        <escenario id ="1">Metropolis</escenario>
+        <escenario id ="2">Central City</escenario>
+        <escenario id ="3">Gótica</escenario>
+        <escenario id ="4">Smallville</escenario>
+        <escenario id ="5">Krypton</escenario>
+        <escenario id ="6">Phantom Zone</escenario>
+        <escenario id ="7">Themyscira</escenario>
+        <escenario id ="8">Atlantis</escenario>
+    </universo>
+    <universo id="4" nombre="Star Wars">
+        <personaje id="1">Luke</personaje>
+        <personaje id="2">Obi Wan</personaje>
+        <personaje id="3">Han Solo</personaje>
+        <personaje id="4">Chewbacca</personaje>
+        <personaje id="5">R2D2</personaje>
+        <personaje id="6">Leia</personaje>
+        <personaje id="7">Anakin</personaje>
+        <personaje id="8">Padme</personaje>
+        <personaje id="9">Rey</personaje>
+        <personaje id="10">Darth Vader</personaje>
+        <personaje id="11">Palpatine</personaje>
+        <escenario id ="1">Tatooine</escenario>
+        <escenario id ="2">Naboo</escenario>
+        <escenario id ="3">Endor</escenario>
+        <escenario id ="4">Death Star</escenario>
+        <escenario id ="5">Templo Jedi</escenario>
+        <escenario id ="6">Pandora</escenario>
+    </universo>
+    <universo id="5" nombre="Top Gun">
+        <personaje id="1">Maverick</personaje>
+        <personaje id="2">Goose</personaje>
+        <personaje id="3">Iceman</personaje>
+        <personaje id="4">Merlin</personaje>
+        <personaje id="5">Jester</personaje>
+        <personaje id="6">Cougar</personaje>
+        <personaje id="7">Viper</personaje>
+        <personaje id="8">Hollywood</personaje>
+        <personaje id="9">Wolfman</personaje>
+        <personaje id="10">Charlie</personaje>
+        <escenario id ="1">Tomcat F-14</escenario>
+        <escenario id ="2">Top Gun Miramar</escenario>
+        <escenario id ="3">Portaviones USS Ranger</escenario>
+    </universo>
+</recursos>
+    

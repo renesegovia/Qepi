@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<fx:root id="AnchorPane" prefHeight="200.0" prefWidth="350.0" type="AnchorPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.mavericksoft.qepi.client.AcercaDeFxmlNodeController">
+   <children>
+      <Separator layoutX="171.0" layoutY="7.0" orientation="VERTICAL" prefHeight="186.0" prefWidth="6.0" />
+      <Label fx:id="nombreSistemaLb" layoutX="29.0" layoutY="11.0" text="Qëpi">
+         <font>
+            <Font size="53.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="177.0" fitWidth="159.0" layoutX="177.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@qepi3333.png" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="8.0" layoutY="86.0" prefHeight="100.0" prefWidth="159.0" style="-fx-text-box-border: transparent; -fx-focus-color: transparent; -fx-background-color: -fx-control-inner-background; -fx-background-insets: 0; -fx-padding: 1 3 1 3; -fx-text-alignment: center;" styleClass="centeredTextArea" text="Es un chat de texto, de escritorio, anónimo y cifrado de punta a punta. &#10;&#10;Inspirado en el sistema de comunicación del Tahuantinsuyo realizada por los mensajeros del emperador, Los Chasquis, quienes corrian en postas para entregar mensajes codificados entre los monarcas de la civilización del Imperio INCA.&#10;&#10;Este mensajero llevaba entre otras cosas, un &quot;quipu&quot; que consistía en un instrumento de almacenamiento de información codificada en nudos de cuerdas, y el &quot;qëpi&quot; que era una bolsa para transportar objetos y encomiendas. &#10;&#10;Qëpi v.1.0.0 - 03AGO2022&#10;Copyleft MaverickSoft 2022 renesegovia@hotmail.com" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </TextArea>
+   </children>
+</fx:root>

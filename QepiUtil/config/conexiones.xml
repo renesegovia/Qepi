@@ -1,0 +1,10 @@
+<conexiones>
+    <conexion id="1" default="true">
+        <servidor>pc01sop43</servidor>
+        <puerto>7777</puerto>
+    </conexion>
+    <conexion id="2" default="false">
+        <servidor>192.168.83.71</servidor>
+        <puerto>7777</puerto>
+    </conexion>
+</conexiones>
